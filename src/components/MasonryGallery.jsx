@@ -60,7 +60,7 @@ const PhotoCard = ({ photo, onClick }) => {
 
 const photos = Array.from({ length: 20 }, (_, i) => ({
   id: i + 1,
-  url: `/images/family-${i + 1}.jpg`,
+  url: `/images/family-${i + 1}.jpeg`,
   placeholder: `https://images.unsplash.com/photo-${[
     '1542037104857-ffbb0b9155fb', '1491333078588-55b6733c7de6', '1476703993599-0035a21b17a9', '1511895426328-dc8714191300',
     '1502086223501-7ea6ecd79368', '1536640712247-c45474762ef4', '1520853502340-96d3de994391', '1535491740345-0d046c8254b9',
