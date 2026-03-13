@@ -14,20 +14,13 @@ const About = () => {
             />
           </div>
           <div className={styles.textContent}>
-            <h2 className={styles.title}>Tentang Keluarga Kami</h2>
+            <h2 className={styles.title}>Pesan Untuk Bunda & Ayah</h2>
             <div className={styles.divider}></div>
             <p className={styles.description}>
-              Keluarga adalah tempat di mana cinta tak pernah berakhir dan kasih sayang selalu tumbuh subur. 
-              Melalui website ini, kami ingin merangkai kembali setiap detik kebahagiaan, tawa, dan perjuangan 
-              yang telah kami lalui bersama.
-            </p>
-            <p className={styles.description}>
-              Bagi kami, setiap foto adalah sebuah cerita, dan setiap cerita adalah bagian tak terpisahkan 
-              dari perjalanan hidup Arlan, Bunda, dan Ayah. Kami berharap kenangan ini dapat menjadi 
-              inspirasi dan pengingat akan betapa berharganya arti sebuah keluarga.
+              "Terima kasih sudah selalu support Arlan dalam perkuliahan, terima kasih untuk cinta dan kasih sayangnya Bunda dan Ayah ke Arlan. Arlan bersyukur memiliki orang tua seperti kalian berdua."
             </p>
             <p className={styles.quote}>
-              "Kebahagiaan terbesar adalah ketika kita bisa saling memiliki dan mendukung satu sama lain."
+              "I Love You, Bunda & Ayah."
             </p>
           </div>
         </div>
