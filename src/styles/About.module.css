@@ -1,0 +1,77 @@
+.aboutSection {
+  background-color: var(--bg-secondary);
+  padding: 120px 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.imageWrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.imageWrapper::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--accent);
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.aboutImage {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: var(--text-primary);
+}
+
+.divider {
+  width: 50px;
+  height: 2px;
+  background-color: var(--accent);
+  margin-bottom: 30px;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.quote {
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 30px;
+  border-left: 3px solid var(--accent);
+  padding-left: 20px;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .imageWrapper::before {
+    display: none;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}
