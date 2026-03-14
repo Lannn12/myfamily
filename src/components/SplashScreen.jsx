@@ -17,7 +17,6 @@ const SplashScreen = ({ onFinish }) => {
     <div className={`${styles.splashContainer} ${!isVisible ? styles.fadeOut : ''}`}>
       <div className={styles.content}>
         <div className={styles.logoWrapper}>
-          <h1 className={styles.logo}>Kenangan Harmonis</h1>
           <div className={styles.line}></div>
         </div>
         <p className={styles.tagline}>Merangkai Kasih Sayang Dalam Setiap Detik</p>

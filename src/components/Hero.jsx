@@ -43,7 +43,6 @@ const Hero = () => {
         <div className={styles.tagWrapper}>
           <span className={styles.miniTag}>Keluarga Kami</span>
         </div>
-        <h1 className={styles.title}>Kenangan Harmonis</h1>
         <p className={styles.subtitle}>
           "{text}"<span className={styles.cursor}>|</span>
         </p>

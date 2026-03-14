@@ -58,7 +58,7 @@ const PhotoCard = ({ photo, onClick }) => {
   );
 };
 
-const photos = Array.from({ length: 20 }, (_, i) => ({
+const photos = Array.from({ length: 28 }, (_, i) => ({
   id: i + 1,
   url: `/images/family-${i + 1}.jpeg`,
   placeholder: `https://images.unsplash.com/photo-${[
@@ -67,13 +67,15 @@ const photos = Array.from({ length: 20 }, (_, i) => ({
     '1444840535719-195841cb6e2b', '1510972527921-ce03766a1cf1', '1473644617525-5a49bf4aa9c4', '1484981138541-3d074aa97716',
     '1516733725897-1aa73b87c8e8', '1501238463702-0542ab7bcacc', '1504280390367-361c6d9f38f4', '1522067821637-6741697166f7',
     '1508807526345-15e9b5f4dc39', '1529156069898-49953e39b3ac', '1464306208223-e0b4495a5553', '1516627145497-ae6968895b74'
-  ][i]}?auto=format&fit=crop&w=800&q=80`,
+  ][i] || '1511895426328-dc8714191300'}?auto=format&fit=crop&w=800&q=80`,
   title: [
-    'Tawa Ceria', 'Pelukan Hangat', 'Langkah Pertama', 'Liburan Keluarga',
-    'Hari Ulang Tahun', 'Sore yang Damai', 'Momen Belajar', 'Canda Tawa',
-    'Kebersamaan', 'Kasih Sayang', 'Dunia Arlan', 'Mimpi Indah',
-    'Jalan Santai', 'Sarapan Bersama', 'Senyum Bunda', 'Genggaman Ayah',
-    'Bermain Bersama', 'Kenangan Manis', 'Cahaya Rumah', 'Cinta Abadi'
+    'With Ayah Bunda', 'Pelukan Hangat', 'Tutup Tahun Bersama', 'Ulang Tahun Arlan',
+    'Senyuman Manis', 'Liburan Bersama Ayah', 'Momen Belajar', 'Malam Tahun Baru',
+    'Bunda with Cici', 'Kasih Sayang', 'Dunia Arlan', 'Mimpi Indah',
+    'Nonton Bareng', 'Ibadah with Bunda', 'Masa Kecil Arlan', 'Masa Kecil Arlan',
+    'Senyum Arlan', 'Kenangan Manis', 'Ulang Tahun Arlan di Masa Kecil', 'Cinta Abadi',
+    'Momen Spesial', 'Kebahagiaan', 'Bunda', 'Senyum with Bunda di Masa Kecil',
+    'Detik Berharga', 'Senyum yang Penuh Manis', 'Cerita Kita', 'Selamanya'
   ][i] || `Kenangan ${i + 1}`
 }));
 

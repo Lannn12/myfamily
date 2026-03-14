@@ -3,6 +3,7 @@ import Lenis from 'lenis';
 import Hero from './components/Hero';
 import MasonryGallery from './components/MasonryGallery';
 import About from './components/About';
+import Timeline from './components/Timeline';
 import Footer from './components/Footer';
 import SplashScreen from './components/SplashScreen';
 import CustomCursor from './components/CustomCursor';
@@ -68,6 +69,7 @@ function App() {
         <>
           <Hero />
           <About />
+          <Timeline />
           <MasonryGallery />
           <Footer />
         </>

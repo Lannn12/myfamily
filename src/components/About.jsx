@@ -8,7 +8,7 @@ const About = () => {
         <div className={styles.grid}>
           <div className={styles.imageWrapper}>
             <img 
-              src="https://images.unsplash.com/photo-1542037104857-ffbb0b9155fb?auto=format&fit=crop&w=1000&q=80" 
+              src="images/family-22.jpeg" 
               alt="Tentang Kami" 
               className={styles.aboutImage}
             />

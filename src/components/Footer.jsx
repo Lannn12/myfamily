@@ -5,7 +5,6 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className="container">
-        <h2 className={styles.logo}>Kenangan Harmonis</h2>
         <p className={styles.tagline}>
           "Keluarga adalah harta yang paling berharga."
         </p>
